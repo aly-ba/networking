@@ -1,0 +1,4 @@
+notes gpo:
+loopback processing mode :
+La stratégie de groupe s'applique à l'utilisateur ou à l'ordinateur d'une manière qui dépend de l'emplacement des objets utilisateur et ordinateur dans Active Directory. Cependant, dans certains cas, les utilisateurs peuvent avoir besoin d'une stratégie appliquée à eux seuls en fonction uniquement de l'objet ordinateur. Vous pouvez utiliser la fonctionnalité de bouclage Stratégie de groupe pour appliquer des objets de stratégie de groupe (GPO) 
+qui dépendent uniquement de l'ordinateur sur lequel l'utilisateur ouvre une session.

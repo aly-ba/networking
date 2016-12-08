@@ -1,0 +1,18 @@
+#donc  
+>?
+#regular expression
+>C?
+>config t
+>line console 0
+>logging sysadmin
+>do show run
+>ip domain-name ACME.local
+#genrereted key
+>username ROSS password ciscoet 
+>crypto gkye generate rsa general-keys  modulos 1024
+>ip ssh version 2
+>line vty 0 4
+>transpport input ssh
+>exit 
+>copy running-config startup-config
+>certifcate generation

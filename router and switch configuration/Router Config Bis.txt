@@ -1,0 +1,28 @@
+#> crypto key generate rsa genrak-keys
+#>ip ssh version2
+#>username aly secret hypersecret
+#> line vty 0 4
+#>login local 
+#>logging local
+#>logging sync
+#>exit
+---------------------------------------------
+Testing Your Router
+----------------------------------------------
+#>interfaces fastethernet 0/0
+#>ip address 10.0.0.1
+255.255.255.128
+#>shutdown
+#>no shutdown
+#>ip address ect....
+#>ip adresse
+#>config t
+interfaces  fast ethernet 0/1
+#>ip adress 10.0.0.129 
+#>copy running-config startup-config
+
+-----------------------------
+testing our router
+
+
+

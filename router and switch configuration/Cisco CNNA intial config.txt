@@ -1,0 +1,9 @@
+#telnet , ssh more speed
+>ip address
+>enable
+>PASSWORD
+#copy the running config
+> copy running-config startup-config
+#startup-config: the destination filename
+#dhow the startup-config
+>show startup-config
