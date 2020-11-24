@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww38200\viewh20180\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs72 \cf0 IPv4 Subnetting Class C\
+\
+
+\f1 192.168.8.0    =  	11000000.10101000.00001000.00000000\
+255.255.255.0. =  	11111111.11111111.11111111.11100000\
+\
+Networks Needed?\
+	- How many bits do I need to borrow from the host bits? 3\
+	- Combinations: 000, 001, 010, 011,100,101,110,111\
+	- What is my new subnet mask (normal and \'93/\'93): 255.255.255.224 or /27\
+\
+How many hosts per network needed? 20 hosts per network\
+	- Determine how many hosts per network (32bits - Subnet Mask bits)\
+\
+1st Subnet\
+Network ID		192.168.8.0   = 11000000.10101000.00001000.00011110\
+Subnet Mask		255.255.255.224 = 11111111.11111111.11111111.11100000\
+Range: 192.168.8.1 - 192.168.8.30\
+Broadcast ID: 192.168.31\
+\
+2nd Subnet\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Network ID		192.168.8.32    = 11000000.10101000.00001000.00111111\
+Subnet Mask		255.255.255.224 = 11111111.11111111.11111111.11100000\
+Range 192.168.8.33 - 192.168.8.62\
+Broadcast ID: 192.168.8.63\
+\
+3rd Subnet\
+Network ID		192.168.8.64  = 11000000.10101000.00001000.01000000\
+Subnet Mask		255.255.255.224 = 11111111.11111111.11111111.11100000\
+Range 192.168.8.65 - 192.168.8.94\
+Broadcast ID: 192.168.8.95\
+\
+4th Subnet\
+Network ID		192.168.8.96  = 11000000.10101000.00001000.01100000\
+Subnet Mask		255.255.255.224 = 11111111.11111111.11111111.11100000\
+Range 192.168.8.97 - 192.168.8.126\
+Broadcast ID: 192.168.8.127\
+\
+5th Subnet\
+Network ID		192.168.8.128 = 11000000.10101000.00001000.10000000\
+Subnet Mask		255.255.255.224 = 11111111.11111111.11111111.11100000\
+Range 192.168.8.129 - 192.168.8.158\
+Broadcast ID: 192.168.8.159\
+\
+6th Subnet\
+Network ID		192.168.8.0   = 11000000.10101000.00001000.00000000\
+Subnet Mask		255.255.255.0 = 11111111.11111111.11111111.00000000\
+Range\
+Broadcast ID\
+\
+7th Subnet\
+Network ID		192.168.8.0   = 11000000.10101000.00001000.00000000\
+Subnet Mask		255.255.255.0 = 11111111.11111111.11111111.00000000\
+Range\
+Broadcast ID\
+\
+8th Subnet\
+Network ID		192.168.8.0   = 11000000.10101000.00001000.00000000\
+Subnet Mask		255.255.255.0 = 11111111.11111111.11111111.00000000\
+Range\
+Broadcast ID\
+\
+}

@@ -1,0 +1,18 @@
+Binary Revelations & Special Addresses you should know.
+
+Binary will reveal the Network ID and the Broadcast ID
+--are not assigned to any one device on a network
+--NetworkID: the HOST bits are all binary zeros
+	(Binary ANDing)
+--BroadcastID: the HOST bits are all binary ones
+
+3 or 4 different methods to address the shortage of IP addresses:
+
+(RFC 1918) Stop-gap
+
+NAT  Stop-gap
+
+VLSM  Stop-gap
+
+
+

@@ -1,0 +1,21 @@
+Address Types
+
+Unicast Addresses
+- Single IP Address (Source IP address or Destination IP)
+- A to B
+- One to One 
+- They must be unique within the same subnet (logical grouping of addresses)
+	+ no duplicates within the same subnet: no duplicates 192.168.1.100
+	+ TCP 
+
+Broadcast Addresses
+- Single IP Address, it's special--it's not assigned to any one device.
+- Every device within a subnet listens for traffic sent to the broadcast address.
+- One to All
+- UDP
+- ARP, DHCP
+
+Multicast Addresses
+- Neither Unicast or Broadcast
+- subset of a broadcast
+- one to many

@@ -1,0 +1,66 @@
+Types of subnetting questions found on ANY (not just Cisco)
+
+1.  172.16.195.233/19 and 172.16.222.240/19 are in which subnet?
+	a. 172.16.191.0/19
+	b. 172.16.192.0/19
+	c. 172.16.160.0/19
+	d. 172.16.128.0/19
+
+2.  You've been assigned 172.31.255.128/26, how many subnets can you create?
+	a. 4 networks
+	b. 2 networks
+	c. 256 networks
+	d. >400 networks 
+
+3.  You must request a network from 172.30.0.0/16 that supports 50 networks without have 
+too many extra networks which of the following subnet mask will give you what you need?
+	a. 255.255.255.0
+	b. /23
+	c. 255.255.252.0 
+	d. /22 
+
+4.  Which of the following is the broadcast address for 192.168.12.65/29?
+	a. 192.168.15.255/29
+	b. 192.168.13.254/29
+	c. 192.168.8.255/29
+	d. 192.168.12.127/29
+
+5.  Which addresses are valid address for hosts? (choose 2)
+	a. 172.16.0.255/23
+	b. 172.16.2.255/23
+	c. 172.16.2.0/23
+	d. 172.16.1.0/23
+
+-- Subnetting Practice Part 2
+
+6.  What are the next two valid subnets after 192.168.32.144/28
+	a. 192.168.32.192/28
+	b. 192.168.32.176/28
+	c. 192.168.32.180/28
+	d. 192.168.32.160/28 
+
+
+7.  You need to create 2 point-to-point networks from 192.168.177.0/24, 
+which ones would meet the requirements?
+	a. 192.168.177.140/30
+	b. 192.168.177.142/30
+	c. 192.168.177.144/30
+	d. 192.168.177.146/30
+
+8.  Which of the following are NetworkIDs?
+	a. 177.177.176.128/26
+	b. 188.188.188.188/26
+	c. 224.224.224.224/26
+	d. 172.16.0.0/23
+
+9.  Which of following is a valid subnet mask (choose 2)?
+	a. 255.252.255.0
+	b. 252.255.255.0 
+	c. 255.255.248.0
+	d. 255.255.255.255
+
+10. Which subnet mask corresponds to /22?
+	a. 255.255.255.0
+	b. 255.255.252.0
+	c. 255.255.248.0
+	d. 255.255.240.0

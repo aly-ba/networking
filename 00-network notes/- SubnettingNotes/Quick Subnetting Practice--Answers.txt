@@ -1,0 +1,38 @@
+What network are the following addresses within?
+
+220.220.222.222/26
+Increment: ...128,192,224
+Network ID: 220.220.222.192/26
+
+129.192.225.233/19
+Increment: ...128,160,192,224
+Network ID: 129.192.223.224/19
+
+223.240.248.250/30
+Increment: ...128,132,136,140,144,148,152,156,160,164,168,172,176,180,184,188,192,196,200,204,208,212,216,220,224,228,232,236,240,244,248,252
+Network ID: 223.240.248.248/30
+
+Unicast address or Network ID
+
+191.255.5.0/23
+Subnet Mask: 255.255.254.0
+Network ID: 192.255.4.0/23
+Answer: Unicast
+
+172.16.29.16/20
+Subnet Mask: 255.255.240.0
+Network ID: 172.16.16.0/20
+Answer: Unicast
+
+172.16.49.176/29
+Subnet Mask: 255.255.255.248
+Network ID: 172.16.49.176/29
+Answer: Network ID
+
+192.255.5.19/29
+Subnet Mask: 255.255.255.248
+Network ID: 192.255.5.16/29
+Answer: Unicast
+
+
+

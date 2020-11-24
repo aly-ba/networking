@@ -1,0 +1,12 @@
+Addressing Goal
+
+Data from Source to Destination
+MAC Address (Media Access Control) (BIA, Physical Address)
+-48 bit (Trillions of devices think they're on the same network)
+-cannot communicate with someone on a different network.
+-design of the address:
+	+ 1st 24bits: OUI (Organizationally Unique Identifier)
+	+ 2nd 24 bits: UID (Unique Identifier)
+-Works on Layer 2 of the OSI, works on the Network Access Layer of the TCP/IP
+
+-IP Addresses (Layer 3 or the Internet Layer of the TCP/IP)

@@ -1,0 +1,20 @@
+What network are the following addresses within?
+
+220.220.222.222/26
+
+129.192.225.233/19
+
+223.240.248.250/30
+
+Unicast address or Network ID
+
+191.255.5.0/23
+
+172.16.29.16/20
+
+172.16.49.176/29
+
+192.255.5.19/29
+
+
+
